@@ -84,7 +84,7 @@ Medsnap builds EMR / clinic software for doctors, covering appointments, patient
 <a href="https://github.com/Lokesh-sharma29"><img height="150" src="https://streak-stats.demolab.com/?user=Lokesh-sharma29&background=F3F1EA&border=1B1B1B&stroke=2A2FD0&ring=2A2FD0&fire=D33A36&currStreakNum=1B1B1B&sideNums=1B1B1B&currStreakLabel=2A2FD0&sideLabels=4A4636&dates=4A4636" alt="Work account contribution streak" /></a>
 <a href="https://github.com/Lokesh-sharma29?tab=achievements"><img height="150" src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" alt="Pull Shark achievement" title="Pull Shark ×2 — work account" /></a>
 
-<a href="https://github.com/Lokesh-sharma29"><img width="100%" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/work.svg" alt="Work account activity for @Lokesh-sharma29 over the last 12 months" /></a>
+<a href="https://github.com/Lokesh-sharma29"><img width="100%" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/work.svg?v=2" alt="Work account activity for @Lokesh-sharma29 over the last 12 months" /></a>
 
 </div>
 
@@ -190,12 +190,12 @@ An in-character chatbot on the Gemini API, built for the ThinklyLabs frontend-in
 
 <br/>
 
-<img height="200" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/stats.svg" alt="GitHub stats for slokesh2905" />
-<img height="200" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/langs.svg" alt="Top languages for slokesh2905" />
+<img height="200" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/stats.svg?v=2" alt="GitHub stats for slokesh2905" />
+<img height="200" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/langs.svg?v=2" alt="Top languages for slokesh2905" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/snake-dark.svg" />
-  <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/snake-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/snake-dark.svg?v=2" />
+  <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/snake-light.svg?v=2" />
 </picture>
 
 </div>
