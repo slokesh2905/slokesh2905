@@ -37,10 +37,10 @@ I like owning things end to end — the database migration, the endpoint, the UI
 ### Full-Stack Developer Intern · MedSnap
 `Aug 2026 – present` · `Next.js / React` · `Rust (Axum, SeaORM)` · `Svelte` · work account → [**@Lokesh-sharma29**](https://github.com/Lokesh-sharma29)
 
-MedSnap makes clinic software for doctors — appointments, patient records, prescriptions and billing. I started on bug fixes, then took on the infrastructure work nobody had got to (testing and upgrades), and by October I was owning features from the database migration up to the UI.
+MedSnap makes clinic software for doctors: appointments, patient records, prescriptions and billing. I work across the Next.js doctor app, the Rust API server, the public landing page and the internal sales-admin tool. I started on bug fixes and took on the testing and upgrade work nobody had got to. By October I was owning features from the database migration up to the UI.
 
 <div align="center">
-<img src="assets/medsnap-stats.svg" width="760" alt="MedSnap internship: 42 pull requests, 18 merged, 4 repositories, ~1,500 lines of hardcoded PDF templates replaced" />
+<img src="assets/medsnap-stats.svg" width="720" alt="MedSnap internship: 19 pull requests merged across 4 repositories in 13 weeks" />
 </div>
 
 <table>
@@ -49,29 +49,34 @@ MedSnap makes clinic software for doctors — appointments, patient records, pre
 
 **▸ Built end to end**
 
-- **Clinic-branded PDF system** — one clinic-level page setup drives every report and bill. The server pulls the two dominant colours out of the clinic's logo (ignoring transparent, near-white and anti-aliased pixels), and a new PDF layout engine replaced **~1,500 lines** of hardcoded templates. Redesigned the visit report and added draw-to-sign doctor signatures. *Rust + DB migrations → React.*
-- **Department template switch** *(Rust)* — when a doctor changes department, their default prescription, symptom and exam templates swap to the new department's, while templates they wrote themselves are kept. Handles cross-clinic sharing, demo clinics and clearing a department, with a unit test per case.
-- **New appointment flow** — walk-in booking, a doctor selector and a reworked patient search for front-desk staff.
+- **Clinic-branded reports & bills.** A clinic-level page setup that every generated PDF uses. The server picks the clinic's two dominant logo colours automatically (skipping transparent, near-white and edge pixels). I replaced the hardcoded PDF templates with a reusable layout engine, redesigned the visit report and added draw-to-sign doctor signatures. *Rust + DB migrations → React.*
+- **Department template switch** *(Rust)*. When a doctor changes department, their default prescription, symptom and exam templates follow, and templates they wrote themselves are kept. It handles templates shared across clinics and demo clinics, with a unit test for each case.
+- **New appointment flow.** Walk-in booking, a doctor selector and a reworked patient search for front-desk staff.
+- **Form templates across three apps** *(in review)*. Consent forms and lab requests became plain-text templates with placeholders. I built a server API with per-clinic defaults, a sales-admin editor for super admins, and a live-preview editor plus form generation in the doctor app.
 
 </td>
 <td width="50%" valign="top">
 
 **▸ Co-built**
 
-- **Onboarding after first login** with a separate flow per role, plus the Clinic & Account Settings rework. Server-side onboarding / terms tracking, a clinic-level schedule and shift validation — ~700 lines of logic, ~470 lines of tests.
-- **Plan of Action rebuild** — prescriptions, treatments, tests and advice, matched to the new designs.
+- **Role-based onboarding after first login**, with server-side tracking of onboarding and terms acceptance, a clinic-level schedule and shift validation. Also reworked Clinic & Account Settings.
+- **Plan of Action rebuild.** Prescriptions, treatments, tests and advice, matched to the new designs.
 
-**▸ Infrastructure**
+**▸ Platform**
 
-- **Set up Jest from scratch** — the doctor app had no automated tests. Config plus mocks for pdfme, jsPDF, lucide-react and sonner.
-- **~50k lines of component tests**, split from one unreviewable 52k-line PR into **18 focused PRs**; fixed the real bugs they surfaced.
-- **Upgraded to Next.js 16 & React 19** — plus ESLint 9, Tailwind, Radix, Capacitor, pdfme v6, Jest 30 — and fixed the regressions.
+- **Upgraded to Next.js 16 & React 19**, plus ESLint 9, Tailwind, Radix, Capacitor and pdfme, and fixed the regressions they caused.
+- **Set up Jest from scratch.** The doctor app had no automated tests, so I added the config and mocks for the PDF and UI libraries.
+
+**▸ Fixes that mattered**
+
+- Bills that didn't save on repeated edits, and concessions that could exceed the bill. Both cost clinics real money.
+- Dashboard Approve/Reject buttons that did nothing, wrong due amounts in billing analytics, and landing-page forms hardened with server-side checks.
 
 </td>
 </tr>
 </table>
 
-**▸ Fixes that mattered** — bills that didn't save on repeated edits and concessions larger than the bill (both cost clinics real money), an 85-file pre-launch round across billing, validation and mobile layout, a landing-page search that ignored the query, and taking the server's `.env` out of git.
+**▸ Now:** Hindi report PDFs, a mobile visit page with per-tab actions, and Google Place IDs for clinics wired through all four apps.
 
 <div align="center">
 
@@ -88,56 +93,66 @@ MedSnap makes clinic software for doctors — appointments, patient records, pre
 
 <img src="assets/h-projects.svg" height="70" alt="02 Projects" />
 
+<a href="https://track-let.vercel.app"><img src="assets/p-tracklet.svg" height="64" alt="Tracklet — flagship project" /></a>
+
+**SaaS price-tracking pipeline.** Add a product link and Tracklet watches the price for you, emailing you the moment it drops.
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="62%" valign="top">
 
-<a href="https://main.d35vbh139ds45v.amplifyapp.com/"><img src="assets/p-beatwell.svg" height="46" alt="Beat-Well" /></a>
+- **200+ automated price checks a day** across 50+ tracked products
+- **Price-drop alerts emailed to 100+ subscribed users**, so nobody has to check prices by hand
+- Scraping with Firecrawl, data and auth on Supabase (PostgreSQL), email through Resend, all in one Next.js + TypeScript app
 
-*AI-powered heart-disease risk prediction platform*
+[**▸ Try it live ↗**](https://track-let.vercel.app)
 
-Dual-database platform (PostgreSQL + MongoDB) serving an XGBoost pipeline over 14 health features — **~85% prediction accuracy**, deployed end to end on AWS.
+</td>
+<td width="38%" valign="top">
 
-`Next.js` `FastAPI` `Python` `Scikit-learn` `PostgreSQL` `MongoDB` `AWS`
+`Next.js` `TypeScript`<br/>
+`Firecrawl` `Supabase`<br/>
+`PostgreSQL` `Resend`
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<a href="https://main.d35vbh139ds45v.amplifyapp.com/"><img src="assets/p-beatwell.svg" height="40" alt="Beat-Well" /></a>
+
+*AI heart-disease risk prediction*
+
+An XGBoost pipeline over 14 health features, **~85% accuracy**, on a dual-database (PostgreSQL + MongoDB) platform deployed on AWS.
+
+`Next.js` `FastAPI` `Scikit-learn` `AWS`
 
 [**Live ↗**](https://main.d35vbh139ds45v.amplifyapp.com/) · [**Source ↗**](https://github.com/slokesh2905/BEat-well)
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-<a href="https://track-let.vercel.app"><img src="assets/p-tracklet.svg" height="46" alt="Tracklet" /></a>
+<a href="https://securescan-gray.vercel.app"><img src="assets/p-securescan.svg" height="40" alt="SecureScan" /></a>
 
-*SaaS price-tracking pipeline*
+*Web vulnerability scanner*
 
-Runs **200+ automated daily price checks** across 50+ products and emails price-drop alerts to 100+ subscribers — cutting manual price-monitoring effort by ~90%.
+**4 threat modules, 12 finding types**, rated CRITICAL → INFO. SSRF-hardened, and deployed as 3 tiers on Vercel / Render / Neon.
 
-`Next.js` `TypeScript` `Firecrawl` `Supabase` `PostgreSQL` `Resend`
-
-[**Live ↗**](https://track-let.vercel.app)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://securescan-gray.vercel.app"><img src="assets/p-securescan.svg" height="46" alt="SecureScan" /></a>
-
-*Passive / active web vulnerability scanner*
-
-**4 threat modules, 12 finding types**, CRITICAL → INFO severity. SSRF-hardened (blocks RFC-1918, loopback and reserved ranges), shipped as a 3-tier deploy on Vercel / Render / Neon.
-
-`Python` `Flask` `PostgreSQL` `BeautifulSoup`
+`Python` `Flask` `PostgreSQL`
 
 [**Live ↗**](https://securescan-gray.vercel.app)
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-<a href="https://itsallgoodman.netlify.app/"><img src="assets/p-saul.svg" height="46" alt="Saul's Situation Solver" /></a>
+<a href="https://itsallgoodman.netlify.app/"><img src="assets/p-saul.svg" height="40" alt="Saul's Situation Solver" /></a>
 
 *Gemini-powered character chatbot*
 
-An in-character conversational chatbot built on the Gemini API — completed as the ThinklyLabs frontend-intern take-home assignment.
+An in-character chatbot on the Gemini API, built for the ThinklyLabs frontend-intern take-home.
 
 `Next.js` `TypeScript` `Gemini API`
 
