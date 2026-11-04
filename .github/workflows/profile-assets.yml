@@ -1,0 +1,40 @@
+name: Refresh profile cards
+
+# Draws the contribution snake and the stat cards used in README.md, then
+# publishes them to the `output` branch. Runs daily and on every push to main.
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#d33a36&color_dots=#e4dcb2,#9fc9b3,#5fa882,#2f7d55,#1d6a44
+            dist/snake-dark.svg?color_snake=#f0c43a&color_dots=#1f2b26,#2f7d55,#5fa882,#9fc9b3,#e4dcb2
+
+      - name: Draw stat cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/profile_cards.py dist ${{ github.repository_owner }} Lokesh-sharma29
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Refresh profile cards"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

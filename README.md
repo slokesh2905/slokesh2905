@@ -1,283 +1,209 @@
 <div align="center">
 
-<img src="https://lowcash.netlify.app/pixel/sprites/idle.webp" width="120" alt="Lokesh's pixel mascot, idle pose" />
+<a href="https://lowcash.netlify.app"><img src="assets/hero.svg" width="100%" alt="Lokesh Sharma — software developer. Full-stack + ML engineer, VIT Bhopal, class of '27." /></a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&duration=3200&pause=900&color=F5C542&background=0D1B2A&center=true&vCenter=true&width=680&height=50&lines=LOKESH+SHARMA)](https://lowcash.netlify.app)
+<br/><br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&size=20&duration=2600&pause=700&color=F4F1E6&background=0D1B2A&center=true&vCenter=true&width=680&height=40&lines=Software+engineer+%26+CS+student+who+ships+production+code.;Currently%3A+Full-Stack+Developer+Intern+%40+MedSnap;VIT+Bhopal+%C2%B7+CSE+(Cyber+Security)+%C2%B7+CGPA+8.75+%C2%B7+2027)](https://lowcash.netlify.app)
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-6B4423?style=for-the-badge&logo=vercel&logoColor=F5C542)](https://lowcash.netlify.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-6B4423?style=for-the-badge&logo=linkedin&logoColor=F5C542)](https://www.linkedin.com/in/lokesh-sharma-4a16ba206/)
-[![GitHub](https://img.shields.io/badge/GitHub-6B4423?style=for-the-badge&logo=github&logoColor=F5C542)](https://github.com/slokesh2905)
-[![LeetCode](https://img.shields.io/badge/LeetCode-6B4423?style=for-the-badge&logo=leetcode&logoColor=F5C542)](https://leetcode.com/lok_esh_shar_ma)
-[![X](https://img.shields.io/badge/X-6B4423?style=for-the-badge&logo=X&logoColor=F5C542)](https://x.com/Lokesh2905)
-[![Instagram](https://img.shields.io/badge/Instagram-6B4423?style=for-the-badge&logo=Instagram&logoColor=F5C542)](https://www.instagram.com/lok_esh_shar_ma/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1B1B1B?style=for-the-badge&logo=vercel&logoColor=F0C43A)](https://lowcash.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1B1B1B?style=for-the-badge&logo=linkedin&logoColor=F0C43A)](https://www.linkedin.com/in/lokesh-sharma-4a16ba206/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-1B1B1B?style=for-the-badge&logo=leetcode&logoColor=F0C43A)](https://leetcode.com/lok_esh_shar_ma)
+[![X](https://img.shields.io/badge/X-1B1B1B?style=for-the-badge&logo=x&logoColor=F0C43A)](https://x.com/Lokesh2905)
+[![Instagram](https://img.shields.io/badge/Instagram-1B1B1B?style=for-the-badge&logo=instagram&logoColor=F0C43A)](https://www.instagram.com/lok_esh_shar_ma/)
+[![Resume](https://img.shields.io/badge/Resume-D33A36?style=for-the-badge&logo=readdotcv&logoColor=F3F1EA)](https://lowcash.netlify.app/resume.pdf)
 
 </div>
 
 <br/>
 
-<div align="center">
+<img src="assets/h-hello.svg" height="78" alt="Hello!" />
 
-**▸ CHARACTER SHEET**
+<img align="right" width="400" src="assets/laptop.svg" alt="Terminal: whoami — Lokesh, full-stack + ML engineer; full-stack intern at MedSnap; certs: AWS SAA, AWS CCP, IBM SQL" />
 
-</div>
+I'm **Lokesh** — a software engineer and CS student who ships production code.
 
-```yaml
-name: Lokesh Sharma
-class: Full-Stack + ML Engineer
-guild: VIT Bhopal — Integrated M.Tech, CSE (Cyber Security), CGPA 8.75, class of 2027
-current_quest: Full-Stack Developer Intern @ MedSnap
-  - Debugging live production UI (patient / exam / billing modules)
-  - Modernizing front-end deps — 50+ upgraded across 10 risk-isolated batches
-  - Regression-testing fixes with Jest across 21 shared components
-side_quests:
-  - Building full-stack + ML projects end to end (see Quest Log below)
-  - Competitive programming — 200+ problems solved (LeetCode + Codeforces)
-seeking: Software Engineering internships/new-grad roles
-```
+I study **Integrated M.Tech, CSE (Cyber Security)** at **VIT Bhopal** (CGPA 8.75, class of '27) and I'm currently a **Full-Stack Developer Intern at MedSnap**, building clinic software across a Next.js frontend and a Rust API server.
 
+I like owning things end to end — the database migration, the endpoint, the UI, and the tests that keep it all honest.
+
+`🟢 open to` **Software Engineering internships & new-grad roles**
+
+`⚡ 200+` **DSA problems** on LeetCode & Codeforces
+
+<br clear="right"/>
 <br/>
 
-<div align="center">
+<img src="assets/h-experience.svg" height="70" alt="01 Experience" />
 
-**🧭 QUEST LOG — FEATURED PROJECTS**
+### Full-Stack Developer Intern · MedSnap
+`Aug 2026 – present` · `Next.js / React` · `Rust (Axum, SeaORM)` · `Svelte` · work account → [**@Lokesh-sharma29**](https://github.com/Lokesh-sharma29)
+
+MedSnap makes clinic software for doctors — appointments, patient records, prescriptions and billing. I started on bug fixes, then took on the infrastructure work nobody had got to (testing and upgrades), and by October I was owning features from the database migration up to the UI.
+
+<div align="center">
+<img src="assets/medsnap-stats.svg" width="760" alt="MedSnap internship: 42 pull requests, 18 merged, 4 repositories, ~1,500 lines of hardcoded PDF templates replaced" />
+</div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**⭐ BEAT-WELL** — *AI-powered heart disease risk prediction platform*
+**▸ Built end to end**
 
-`Next.js` `FastAPI` `Python` `Scikit-learn` `PostgreSQL` `MongoDB` `AWS`
-
-Dual-database platform (PostgreSQL + MongoDB) serving an XGBoost pipeline over 14 health features. Reaches ~85% prediction accuracy, deployed end-to-end on AWS.
-
-[→ Live](https://main.d35vbh139ds45v.amplifyapp.com/) · [→ Repo](https://github.com/slokesh2905/BEat-well)
+- **Clinic-branded PDF system** — one clinic-level page setup drives every report and bill. The server pulls the two dominant colours out of the clinic's logo (ignoring transparent, near-white and anti-aliased pixels), and a new PDF layout engine replaced **~1,500 lines** of hardcoded templates. Redesigned the visit report and added draw-to-sign doctor signatures. *Rust + DB migrations → React.*
+- **Department template switch** *(Rust)* — when a doctor changes department, their default prescription, symptom and exam templates swap to the new department's, while templates they wrote themselves are kept. Handles cross-clinic sharing, demo clinics and clearing a department, with a unit test per case.
+- **New appointment flow** — walk-in booking, a doctor selector and a reworked patient search for front-desk staff.
 
 </td>
 <td width="50%" valign="top">
 
-**⭐ Tracklet** — *SaaS price-tracking pipeline*
+**▸ Co-built**
+
+- **Onboarding after first login** with a separate flow per role, plus the Clinic & Account Settings rework. Server-side onboarding / terms tracking, a clinic-level schedule and shift validation — ~700 lines of logic, ~470 lines of tests.
+- **Plan of Action rebuild** — prescriptions, treatments, tests and advice, matched to the new designs.
+
+**▸ Infrastructure**
+
+- **Set up Jest from scratch** — the doctor app had no automated tests. Config plus mocks for pdfme, jsPDF, lucide-react and sonner.
+- **~50k lines of component tests**, split from one unreviewable 52k-line PR into **18 focused PRs**; fixed the real bugs they surfaced.
+- **Upgraded to Next.js 16 & React 19** — plus ESLint 9, Tailwind, Radix, Capacitor, pdfme v6, Jest 30 — and fixed the regressions.
+
+</td>
+</tr>
+</table>
+
+**▸ Fixes that mattered** — bills that didn't save on repeated edits and concessions larger than the bill (both cost clinics real money), an 85-file pre-launch round across billing, validation and mobile layout, a landing-page search that ignored the query, and taking the server's `.env` out of git.
+
+<div align="center">
+
+<sub>**Day-to-day startup work lives in private repos on my work account** · [@Lokesh-sharma29](https://github.com/Lokesh-sharma29)</sub>
+
+<a href="https://github.com/Lokesh-sharma29"><img height="150" src="https://streak-stats.demolab.com/?user=Lokesh-sharma29&background=F3F1EA&border=1B1B1B&stroke=2A2FD0&ring=2A2FD0&fire=D33A36&currStreakNum=1B1B1B&sideNums=1B1B1B&currStreakLabel=2A2FD0&sideLabels=4A4636&dates=4A4636" alt="Work account contribution streak" /></a>
+<a href="https://github.com/Lokesh-sharma29?tab=achievements"><img height="150" src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" alt="Pull Shark achievement" title="Pull Shark ×2 — work account" /></a>
+
+<a href="https://github.com/Lokesh-sharma29"><img width="100%" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/work.svg" alt="Work account activity for @Lokesh-sharma29 over the last 12 months" /></a>
+
+</div>
+
+<br/>
+
+<img src="assets/h-projects.svg" height="70" alt="02 Projects" />
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://main.d35vbh139ds45v.amplifyapp.com/"><img src="assets/p-beatwell.svg" height="46" alt="Beat-Well" /></a>
+
+*AI-powered heart-disease risk prediction platform*
+
+Dual-database platform (PostgreSQL + MongoDB) serving an XGBoost pipeline over 14 health features — **~85% prediction accuracy**, deployed end to end on AWS.
+
+`Next.js` `FastAPI` `Python` `Scikit-learn` `PostgreSQL` `MongoDB` `AWS`
+
+[**Live ↗**](https://main.d35vbh139ds45v.amplifyapp.com/) · [**Source ↗**](https://github.com/slokesh2905/BEat-well)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://track-let.vercel.app"><img src="assets/p-tracklet.svg" height="46" alt="Tracklet" /></a>
+
+*SaaS price-tracking pipeline*
+
+Runs **200+ automated daily price checks** across 50+ products and emails price-drop alerts to 100+ subscribers — cutting manual price-monitoring effort by ~90%.
 
 `Next.js` `TypeScript` `Firecrawl` `Supabase` `PostgreSQL` `Resend`
 
-Runs 200+ automated daily price checks across 50+ tracked products and emails price-drop alerts to 100+ subscribed users — cutting manual price-monitoring effort by roughly 90%.
-
-[→ Live](https://track-let.vercel.app)
+[**Live ↗**](https://track-let.vercel.app)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**SecureScan** — *Passive/active web vulnerability scanner*
+<a href="https://securescan-gray.vercel.app"><img src="assets/p-securescan.svg" height="46" alt="SecureScan" /></a>
+
+*Passive / active web vulnerability scanner*
+
+**4 threat modules, 12 finding types**, CRITICAL → INFO severity. SSRF-hardened (blocks RFC-1918, loopback and reserved ranges), shipped as a 3-tier deploy on Vercel / Render / Neon.
 
 `Python` `Flask` `PostgreSQL` `BeautifulSoup`
 
-4 threat modules surfacing 12 finding types with CRITICAL→INFO severity. SSRF-hardened (blocks RFC-1918/loopback/reserved ranges) and shipped as a 3-tier deploy — Vercel / Render / Neon.
-
-[→ Live](https://securescan-gray.vercel.app)
+[**Live ↗**](https://securescan-gray.vercel.app)
 
 </td>
 <td width="50%" valign="top">
 
-**Saul's Situation Solver** — *Gemini-powered character chatbot*
+<a href="https://itsallgoodman.netlify.app/"><img src="assets/p-saul.svg" height="46" alt="Saul's Situation Solver" /></a>
+
+*Gemini-powered character chatbot*
+
+An in-character conversational chatbot built on the Gemini API — completed as the ThinklyLabs frontend-intern take-home assignment.
 
 `Next.js` `TypeScript` `Gemini API`
 
-An in-character conversational chatbot built against the Gemini API — completed as a ThinklyLabs frontend-intern take-home assignment.
-
-[→ Live](https://itsallgoodman.netlify.app/) · [→ Repo](https://github.com/slokesh2905/itsAllGoodMan)
+[**Live ↗**](https://itsallgoodman.netlify.app/) · [**Source ↗**](https://github.com/slokesh2905/itsAllGoodMan)
 
 </td>
 </tr>
 </table>
 
+<br/>
+
+<img src="assets/h-stack.svg" height="70" alt="03 Tech stack" />
+
+| Area | Tools |
+|:--|:--|
+| **Languages** | ![C++](https://img.shields.io/badge/C++-6F7F2B?style=flat-square&logo=cplusplus&logoColor=F3F1EA) ![Python](https://img.shields.io/badge/Python-6F7F2B?style=flat-square&logo=python&logoColor=F3F1EA) ![TypeScript](https://img.shields.io/badge/TypeScript-6F7F2B?style=flat-square&logo=typescript&logoColor=F3F1EA) ![JavaScript](https://img.shields.io/badge/JavaScript-6F7F2B?style=flat-square&logo=javascript&logoColor=F3F1EA) ![Rust](https://img.shields.io/badge/Rust-6F7F2B?style=flat-square&logo=rust&logoColor=F3F1EA) ![SQL](https://img.shields.io/badge/SQL-6F7F2B?style=flat-square&logo=postgresql&logoColor=F3F1EA) ![HTML](https://img.shields.io/badge/HTML-6F7F2B?style=flat-square&logo=html5&logoColor=F3F1EA) |
+| **Frameworks** | ![Next.js](https://img.shields.io/badge/Next.js-6F7F2B?style=flat-square&logo=nextdotjs&logoColor=F3F1EA) ![React](https://img.shields.io/badge/React-6F7F2B?style=flat-square&logo=react&logoColor=F3F1EA) ![Node.js](https://img.shields.io/badge/Node.js-6F7F2B?style=flat-square&logo=nodedotjs&logoColor=F3F1EA) ![FastAPI](https://img.shields.io/badge/FastAPI-6F7F2B?style=flat-square&logo=fastapi&logoColor=F3F1EA) ![Axum](https://img.shields.io/badge/Axum-6F7F2B?style=flat-square&logo=rust&logoColor=F3F1EA) ![Svelte](https://img.shields.io/badge/Svelte-6F7F2B?style=flat-square&logo=svelte&logoColor=F3F1EA) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-6F7F2B?style=flat-square&logo=tailwindcss&logoColor=F3F1EA) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-6F7F2B?style=flat-square&logo=scikitlearn&logoColor=F3F1EA) |
+| **Data & cloud** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6F7F2B?style=flat-square&logo=postgresql&logoColor=F3F1EA) ![MongoDB](https://img.shields.io/badge/MongoDB-6F7F2B?style=flat-square&logo=mongodb&logoColor=F3F1EA) ![MySQL](https://img.shields.io/badge/MySQL-6F7F2B?style=flat-square&logo=mysql&logoColor=F3F1EA) ![Supabase](https://img.shields.io/badge/Supabase-6F7F2B?style=flat-square&logo=supabase&logoColor=F3F1EA) ![AWS](https://img.shields.io/badge/AWS-6F7F2B?style=flat-square&logo=amazonaws&logoColor=F3F1EA) |
+| **Tooling** | ![Git](https://img.shields.io/badge/Git-6F7F2B?style=flat-square&logo=git&logoColor=F3F1EA) ![Docker](https://img.shields.io/badge/Docker-6F7F2B?style=flat-square&logo=docker&logoColor=F3F1EA) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-6F7F2B?style=flat-square&logo=githubactions&logoColor=F3F1EA) ![Linux](https://img.shields.io/badge/Linux-6F7F2B?style=flat-square&logo=linux&logoColor=F3F1EA) ![Vercel](https://img.shields.io/badge/Vercel-6F7F2B?style=flat-square&logo=vercel&logoColor=F3F1EA) ![Render](https://img.shields.io/badge/Render-6F7F2B?style=flat-square&logo=render&logoColor=F3F1EA) |
+| **Testing** | ![Jest](https://img.shields.io/badge/Jest-6F7F2B?style=flat-square&logo=jest&logoColor=F3F1EA) ![Testing Library](https://img.shields.io/badge/Testing_Library-6F7F2B?style=flat-square&logo=testinglibrary&logoColor=F3F1EA) ![Regression testing](https://img.shields.io/badge/Regression_testing-6F7F2B?style=flat-square) |
+| **Security** | ![Burp Suite](https://img.shields.io/badge/Burp_Suite-6F7F2B?style=flat-square&logo=burpsuite&logoColor=F3F1EA) ![Nmap](https://img.shields.io/badge/Nmap-6F7F2B?style=flat-square&logo=nmap&logoColor=F3F1EA) ![Wireshark](https://img.shields.io/badge/Wireshark-6F7F2B?style=flat-square&logo=wireshark&logoColor=F3F1EA) ![Metasploit](https://img.shields.io/badge/Metasploit-6F7F2B?style=flat-square&logo=metasploit&logoColor=F3F1EA) |
+
+<br/>
+
+<img src="assets/h-achievements.svg" height="70" alt="04 Achievements" />
+
+| Certification / milestone | Details |
+|:--|:--|
+| 🏅 **[AWS Certified Solutions Architect – Associate (SAA-C03)](https://www.credly.com/badges/88ff1b33-eb51-40b3-b53d-30fe9d5bca88/public_url)** | Amazon Web Services · Jun 2026 |
+| 🏅 **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/04b73846-5a0e-482e-967b-f0a6a4981e46/public_url)** | Amazon Web Services · Jun 2026 |
+| 🏅 **[Databases and SQL for Data Science](https://www.credly.com/badges/40fb5d45-4349-4558-9a38-d1806d2f343e/public_url)** | IBM · Dec 2025 |
+| ⚔️ **[Competitive programming](https://leetcode.com/lok_esh_shar_ma)** | 200+ problems across LeetCode & Codeforces — graphs, optimisation, core DS |
+| 🤝 **MERN XAI Hackathon** (Mern Matrix Club) | Full-stack app with 3+ ML APIs in 24 hours; qualified for the Development Round |
+| 🎗️ **NCC 'A' Certificate** | Awarded 'A' grade for discipline and leadership |
+
+<div align="center">
+
+<br/>
+
+<img height="200" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/stats.svg" alt="GitHub stats for slokesh2905" />
+<img height="200" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/langs.svg" alt="Top languages for slokesh2905" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/snake-dark.svg" />
+  <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/snake-light.svg" />
+</picture>
+
 </div>
+
+<br/>
+
+<img src="assets/h-contact.svg" height="70" alt="05 Let's talk" />
+
+I'm actively looking for **Software Engineering internships and new-grad roles** — and always up for interesting problems, collaborations and good conversations.
+
+[![Email](https://img.shields.io/badge/slokesh2905@gmail.com-D33A36?style=for-the-badge&logo=gmail&logoColor=F3F1EA)](mailto:slokesh2905@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-2A2FD0?style=for-the-badge&logo=linkedin&logoColor=F3F1EA)](https://www.linkedin.com/in/lokesh-sharma-4a16ba206/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1D6A44?style=for-the-badge&logo=vercel&logoColor=F0C43A)](https://lowcash.netlify.app)
+[![Resume](https://img.shields.io/badge/Resume-7B3A7D?style=for-the-badge&logo=readdotcv&logoColor=F3F1EA)](https://lowcash.netlify.app/resume.pdf)
 
 <br/>
 
 <div align="center">
 
-**🎒 INVENTORY — TECH STACK**
+<img src="assets/footer.svg" width="100%" alt="Thanks for stopping by the desk." />
 
-`▸ LANGUAGES`
-
-![C++](https://img.shields.io/badge/C++-6B4423?style=for-the-badge&logo=cplusplus&logoColor=F5C542)
-![Python](https://img.shields.io/badge/Python-6B4423?style=for-the-badge&logo=python&logoColor=F5C542)
-![JavaScript](https://img.shields.io/badge/JavaScript-6B4423?style=for-the-badge&logo=javascript&logoColor=F5C542)
-![TypeScript](https://img.shields.io/badge/TypeScript-6B4423?style=for-the-badge&logo=typescript&logoColor=F5C542)
-![SQL](https://img.shields.io/badge/SQL-6B4423?style=for-the-badge&logo=postgresql&logoColor=F5C542)
-![HTML](https://img.shields.io/badge/HTML-6B4423?style=for-the-badge&logo=html5&logoColor=F5C542)
-
-`▸ FRAMEWORKS & LIBRARIES`
-
-![Next.js](https://img.shields.io/badge/Next.js-6B4423?style=for-the-badge&logo=nextdotjs&logoColor=F5C542)
-![React](https://img.shields.io/badge/React-6B4423?style=for-the-badge&logo=react&logoColor=F5C542)
-![Node.js](https://img.shields.io/badge/Node.js-6B4423?style=for-the-badge&logo=nodedotjs&logoColor=F5C542)
-![FastAPI](https://img.shields.io/badge/FastAPI-6B4423?style=for-the-badge&logo=fastapi&logoColor=F5C542)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-6B4423?style=for-the-badge&logo=tailwindcss&logoColor=F5C542)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-6B4423?style=for-the-badge&logo=scikitlearn&logoColor=F5C542)
-
-`▸ DATABASES & CLOUD`
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6B4423?style=for-the-badge&logo=postgresql&logoColor=F5C542)
-![MongoDB](https://img.shields.io/badge/MongoDB-6B4423?style=for-the-badge&logo=mongodb&logoColor=F5C542)
-![MySQL](https://img.shields.io/badge/MySQL-6B4423?style=for-the-badge&logo=mysql&logoColor=F5C542)
-![Supabase](https://img.shields.io/badge/Supabase-6B4423?style=for-the-badge&logo=supabase&logoColor=F5C542)
-![AWS](https://img.shields.io/badge/AWS-6B4423?style=for-the-badge&logo=amazonaws&logoColor=F5C542)
-
-`▸ TOOLS & PLATFORMS`
-
-![Git](https://img.shields.io/badge/Git-6B4423?style=for-the-badge&logo=git&logoColor=F5C542)
-![Docker](https://img.shields.io/badge/Docker-6B4423?style=for-the-badge&logo=docker&logoColor=F5C542)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-6B4423?style=for-the-badge&logo=githubactions&logoColor=F5C542)
-![Linux](https://img.shields.io/badge/Linux-6B4423?style=for-the-badge&logo=linux&logoColor=F5C542)
-![Vercel](https://img.shields.io/badge/Vercel-6B4423?style=for-the-badge&logo=vercel&logoColor=F5C542)
-![Render](https://img.shields.io/badge/Render-6B4423?style=for-the-badge&logo=render&logoColor=F5C542)
-
-`▸ TESTING & QUALITY`
-
-![Jest](https://img.shields.io/badge/Jest-6B4423?style=for-the-badge&logo=jest&logoColor=F5C542)
-![React Testing Library](https://img.shields.io/badge/RTL-6B4423?style=for-the-badge&logo=testinglibrary&logoColor=F5C542)
-![Debugging](https://img.shields.io/badge/Regression_Testing-6B4423?style=for-the-badge)
-
-`▸ SECURITY TOOLING`
-
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-6B4423?style=for-the-badge&logo=burpsuite&logoColor=F5C542)
-![Nmap](https://img.shields.io/badge/Nmap-6B4423?style=for-the-badge&logo=nmap&logoColor=F5C542)
-![Wireshark](https://img.shields.io/badge/Wireshark-6B4423?style=for-the-badge&logo=wireshark&logoColor=F5C542)
-![Metasploit](https://img.shields.io/badge/Metasploit-6B4423?style=for-the-badge&logo=metasploit&logoColor=F5C542)
+![Profile views](https://komarev.com/ghpvc/?username=slokesh2905&style=flat-square&color=1D6A44&label=desk+visitors)
 
 </div>
-
-<br/>
-
-<div align="center">
-
-**📜 STAT SCREEN**
-
-<img src="https://github-readme-stats.vercel.app/api?username=slokesh2905&show_icons=true&count_private=true&bg_color=0D1B2A&title_color=F5C542&icon_color=F5C542&text_color=F4F1E6&border_color=6B4423" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=slokesh2905&layout=compact&bg_color=0D1B2A&title_color=F5C542&text_color=F4F1E6&border_color=6B4423" height="165"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=slokesh2905&background=0D1B2A&border=6B4423&stroke=F5C542&ring=F5C542&fire=F5C542&currStreakLabel=F5C542&sideLabels=F4F1E6&dates=F4F1E6&currStreakNum=F4F1E6&sideNums=F4F1E6" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=slokesh2905&bg_color=0D1B2A&color=F5C542&line=F5C542&point=F4F1E6&area_color=6B4423&title_color=F5C542&text_color=F4F1E6&area=true&border_color=6B4423" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-**🏆 TROPHY CASE**
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=slokesh2905&theme=onedark&no-frame=true&row=1&column=6)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-**🎖️ ACHIEVEMENTS UNLOCKED**
-
-</div>
-
-- 🏅 **[AWS Certified Solutions Architect – Associate (SAA-C03)](https://www.credly.com/badges/88ff1b33-eb51-40b3-b53d-30fe9d5bca88/public_url)** — Amazon Web Services, Jun 2026
-- 🏅 **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/04b73846-5a0e-482e-967b-f0a6a4981e46/public_url)** — Amazon Web Services, Jun 2026
-- 🏅 **[Databases and SQL for Data Science](https://www.credly.com/badges/40fb5d45-4349-4558-9a38-d1806d2f343e/public_url)** — IBM, Dec 2025
-- ⚔️ **[Competitive Programming](https://leetcode.com/lok_esh_shar_ma)** — 200+ problems solved across LeetCode & Codeforces (graph theory, optimization, core data structures)
-- 🎗️ **NCC 'A' Certificate** — awarded 'A' Grade for disciplined performance and leadership
-- 🤝 **MERN XAI Hackathon (Mern Matrix Club)** — co-built a full-stack app integrating 3+ ML APIs in a 24-hour build window; qualified for the Development Round
-
-<br/>
-
-<div align="center">
-
-**🐍 CONTRIBUTION TRAIL**
-
-![Snake animation](https://raw.githubusercontent.com/slokesh2905/slokesh2905/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
-> **Note:** the snake animation requires a GitHub Actions workflow — see setup instructions at the bottom.
-
----
-
-<div align="center">
-
-### 📦 OPEN THE CHEST
-
-</div>
-
-<details>
-<summary align="center"><b>▸ OPEN CHEST — email, GitHub, LinkedIn, LeetCode &amp; resume are inside</b></summary>
-<br/>
-
-<div align="center">
-
-I'm actively looking for **Software Engineering** internships/new-grad roles — open to collaborations, interesting problems, and good conversations.
-
-[![Email](https://img.shields.io/badge/Email-6B4423?style=for-the-badge&logo=gmail&logoColor=F5C542)](mailto:slokesh2905@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-6B4423?style=for-the-badge&logo=linkedin&logoColor=F5C542)](https://www.linkedin.com/in/lokesh-sharma-4a16ba206/)
-[![GitHub](https://img.shields.io/badge/GitHub-6B4423?style=for-the-badge&logo=github&logoColor=F5C542)](https://github.com/slokesh2905)
-[![LeetCode](https://img.shields.io/badge/LeetCode-6B4423?style=for-the-badge&logo=leetcode&logoColor=F5C542)](https://leetcode.com/lok_esh_shar_ma)
-[![Resume](https://img.shields.io/badge/Resume-6B4423?style=for-the-badge&logo=readdotcv&logoColor=F5C542)](https://lowcash.netlify.app/resume.pdf)
-[![Portfolio](https://img.shields.io/badge/Portfolio-6B4423?style=for-the-badge&logo=vercel&logoColor=F5C542)](https://lowcash.netlify.app)
-
-</div>
-
-</details>
-
-<br/>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=slokesh2905&style=for-the-badge&color=6B4423&label=PROFILE+VIEWS)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&size=16&duration=3800&pause=1000&color=888888&background=0D1B2A&center=true&vCenter=true&width=560&lines=Thanks+for+visiting+the+pixel+world+%F0%9F%99%8C;Star+a+repo+if+you+find+it+useful+%E2%AD%90;Let%27s+build+something+cool+together)](https://lowcash.netlify.app)
-
-</div>
-
----
-
-<details>
-<summary>⚙️ Snake animation setup</summary>
-
-To enable the contribution snake, create `.github/workflows/snake.yml` in this repo:
-
-```yaml
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: slokesh2905
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then run the workflow once manually from the Actions tab.
-
-</details>
