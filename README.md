@@ -17,11 +17,11 @@
 
 <img src="assets/h-hello.svg" height="78" alt="Hello!" />
 
-<img align="right" width="400" src="assets/laptop.svg" alt="Terminal: whoami — Lokesh, full-stack + ML engineer; full-stack intern at MedSnap; certs: AWS SAA, AWS CCP, IBM SQL" />
+<img align="right" width="400" src="assets/laptop.svg" alt="Terminal: whoami — Lokesh, full-stack + ML engineer; full-stack intern at Medsnap; certs: AWS SAA, AWS DVA, AWS CCP" />
 
 I'm **Lokesh** — a software engineer and CS student who ships production code.
 
-I study **Integrated M.Tech, CSE (Cyber Security)** at **VIT Bhopal** (CGPA 8.75, class of '27) and I'm currently a **Full-Stack Developer Intern at MedSnap**, building clinic software across a Next.js frontend and a Rust API server.
+I study **Integrated M.Tech, CSE (Cyber Security)** at **VIT Bhopal** (CGPA 8.75, class of '27) and I'm currently a **Full-Stack Developer Intern at Medsnap**, building EMR software for doctors.
 
 I like owning things end to end — the database migration, the endpoint, the UI, and the tests that keep it all honest.
 
@@ -34,13 +34,13 @@ I like owning things end to end — the database migration, the endpoint, the UI
 
 <img src="assets/h-experience.svg" height="70" alt="01 Experience" />
 
-### Full-Stack Developer Intern · MedSnap
-`Aug 2026 – present` · `Next.js / React` · `Rust (Axum, SeaORM)` · `Svelte` · work account → [**@Lokesh-sharma29**](https://github.com/Lokesh-sharma29)
+### Full-Stack Developer Intern · Medsnap
+`Aug 2026 – present` · `Next.js / React` · `Rust` · work account → [**@Lokesh-sharma29**](https://github.com/Lokesh-sharma29)
 
-MedSnap makes clinic software for doctors: appointments, patient records, prescriptions and billing. I work across the Next.js doctor app, the Rust API server, the public landing page and the internal sales-admin tool. I started on bug fixes and took on the testing and upgrade work nobody had got to. By October I was owning features from the database migration up to the UI.
+Medsnap builds EMR / clinic software for doctors, covering appointments, patient records, prescriptions and billing. I work full-stack across the web app and the backend. I started with bug fixes, took on testing and framework upgrades, and now own features end to end, from the database to the UI.
 
 <div align="center">
-<img src="assets/medsnap-stats.svg" width="720" alt="MedSnap internship: 19 pull requests merged across 4 repositories in 13 weeks" />
+<img src="assets/medsnap-stats.svg" width="720" alt="Medsnap internship: 19 pull requests merged across 4 repositories in 13 weeks" />
 </div>
 
 <table>
@@ -49,34 +49,33 @@ MedSnap makes clinic software for doctors: appointments, patient records, prescr
 
 **▸ Built end to end**
 
-- **Clinic-branded reports & bills.** A clinic-level page setup that every generated PDF uses. The server picks the clinic's two dominant logo colours automatically (skipping transparent, near-white and edge pixels). I replaced the hardcoded PDF templates with a reusable layout engine, redesigned the visit report and added draw-to-sign doctor signatures. *Rust + DB migrations → React.*
-- **Department template switch** *(Rust)*. When a doctor changes department, their default prescription, symptom and exam templates follow, and templates they wrote themselves are kept. It handles templates shared across clinics and demo clinics, with a unit test for each case.
-- **New appointment flow.** Walk-in booking, a doctor selector and a reworked patient search for front-desk staff.
-- **Form templates across three apps** *(in review)*. Consent forms and lab requests became plain-text templates with placeholders. I built a server API with per-clinic defaults, a sales-admin editor for super admins, and a live-preview editor plus form generation in the doctor app.
+- **Clinic-branded reports & bills.** Reports and bills that automatically pick up each clinic's branding from its logo, plus a redesigned visit report and digital doctor signatures.
+- **Department template switch.** A doctor's default templates now follow them when they change department, while their own templates are kept.
+- **New appointment flow.** Walk-in booking, a doctor selector and faster patient search for front-desk staff.
+
+**▸ Co-built**
+
+- **Role-based onboarding** for new users after first login, plus reworked clinic and account settings.
+- **Plan of Action rebuild.** The prescriptions, treatments, tests and advice part of a visit, rebuilt to the new designs.
 
 </td>
 <td width="50%" valign="top">
 
-**▸ Co-built**
+**▸ Platform & quality**
 
-- **Role-based onboarding after first login**, with server-side tracking of onboarding and terms acceptance, a clinic-level schedule and shift validation. Also reworked Clinic & Account Settings.
-- **Plan of Action rebuild.** Prescriptions, treatments, tests and advice, matched to the new designs.
+- **Upgraded the frontend to Next.js 16 & React 19** and fixed the regressions the upgrade caused.
+- **Set up automated testing (Jest)** for a codebase that had none.
+- **Billing reliability, validation and mobile-layout fixes** across the app.
 
-**▸ Platform**
+**▸ How I work**
 
-- **Upgraded to Next.js 16 & React 19**, plus ESLint 9, Tailwind, Radix, Capacitor and pdfme, and fixed the regressions they caused.
-- **Set up Jest from scratch.** The doctor app had no automated tests, so I added the config and mocks for the PDF and UI libraries.
-
-**▸ Fixes that mattered**
-
-- Bills that didn't save on repeated edits, and concessions that could exceed the bill. Both cost clinics real money.
-- Dashboard Approve/Reject buttons that did nothing, wrong due amounts in billing analytics, and landing-page forms hardened with server-side checks.
+- Own features end to end, from data model and API to UI
+- Ship small, reviewable PRs and take part in code review
+- Build for doctors and front-desk staff on desktop, tablet and phone
 
 </td>
 </tr>
 </table>
-
-**▸ Now:** Hindi report PDFs, a mobile visit page with per-tab actions, and Google Place IDs for clinics wired through all four apps.
 
 <div align="center">
 
@@ -169,7 +168,7 @@ An in-character chatbot on the Gemini API, built for the ThinklyLabs frontend-in
 | Area | Tools |
 |:--|:--|
 | **Languages** | ![C++](https://img.shields.io/badge/C++-6F7F2B?style=flat-square&logo=cplusplus&logoColor=F3F1EA) ![Python](https://img.shields.io/badge/Python-6F7F2B?style=flat-square&logo=python&logoColor=F3F1EA) ![TypeScript](https://img.shields.io/badge/TypeScript-6F7F2B?style=flat-square&logo=typescript&logoColor=F3F1EA) ![JavaScript](https://img.shields.io/badge/JavaScript-6F7F2B?style=flat-square&logo=javascript&logoColor=F3F1EA) ![Rust](https://img.shields.io/badge/Rust-6F7F2B?style=flat-square&logo=rust&logoColor=F3F1EA) ![SQL](https://img.shields.io/badge/SQL-6F7F2B?style=flat-square&logo=postgresql&logoColor=F3F1EA) ![HTML](https://img.shields.io/badge/HTML-6F7F2B?style=flat-square&logo=html5&logoColor=F3F1EA) |
-| **Frameworks** | ![Next.js](https://img.shields.io/badge/Next.js-6F7F2B?style=flat-square&logo=nextdotjs&logoColor=F3F1EA) ![React](https://img.shields.io/badge/React-6F7F2B?style=flat-square&logo=react&logoColor=F3F1EA) ![Node.js](https://img.shields.io/badge/Node.js-6F7F2B?style=flat-square&logo=nodedotjs&logoColor=F3F1EA) ![FastAPI](https://img.shields.io/badge/FastAPI-6F7F2B?style=flat-square&logo=fastapi&logoColor=F3F1EA) ![Axum](https://img.shields.io/badge/Axum-6F7F2B?style=flat-square&logo=rust&logoColor=F3F1EA) ![Svelte](https://img.shields.io/badge/Svelte-6F7F2B?style=flat-square&logo=svelte&logoColor=F3F1EA) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-6F7F2B?style=flat-square&logo=tailwindcss&logoColor=F3F1EA) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-6F7F2B?style=flat-square&logo=scikitlearn&logoColor=F3F1EA) |
+| **Frameworks** | ![Next.js](https://img.shields.io/badge/Next.js-6F7F2B?style=flat-square&logo=nextdotjs&logoColor=F3F1EA) ![React](https://img.shields.io/badge/React-6F7F2B?style=flat-square&logo=react&logoColor=F3F1EA) ![Node.js](https://img.shields.io/badge/Node.js-6F7F2B?style=flat-square&logo=nodedotjs&logoColor=F3F1EA) ![FastAPI](https://img.shields.io/badge/FastAPI-6F7F2B?style=flat-square&logo=fastapi&logoColor=F3F1EA) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-6F7F2B?style=flat-square&logo=tailwindcss&logoColor=F3F1EA) |
 | **Data & cloud** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6F7F2B?style=flat-square&logo=postgresql&logoColor=F3F1EA) ![MongoDB](https://img.shields.io/badge/MongoDB-6F7F2B?style=flat-square&logo=mongodb&logoColor=F3F1EA) ![MySQL](https://img.shields.io/badge/MySQL-6F7F2B?style=flat-square&logo=mysql&logoColor=F3F1EA) ![Supabase](https://img.shields.io/badge/Supabase-6F7F2B?style=flat-square&logo=supabase&logoColor=F3F1EA) ![AWS](https://img.shields.io/badge/AWS-6F7F2B?style=flat-square&logo=amazonaws&logoColor=F3F1EA) |
 | **Tooling** | ![Git](https://img.shields.io/badge/Git-6F7F2B?style=flat-square&logo=git&logoColor=F3F1EA) ![Docker](https://img.shields.io/badge/Docker-6F7F2B?style=flat-square&logo=docker&logoColor=F3F1EA) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-6F7F2B?style=flat-square&logo=githubactions&logoColor=F3F1EA) ![Linux](https://img.shields.io/badge/Linux-6F7F2B?style=flat-square&logo=linux&logoColor=F3F1EA) ![Vercel](https://img.shields.io/badge/Vercel-6F7F2B?style=flat-square&logo=vercel&logoColor=F3F1EA) ![Render](https://img.shields.io/badge/Render-6F7F2B?style=flat-square&logo=render&logoColor=F3F1EA) |
 | **Testing** | ![Jest](https://img.shields.io/badge/Jest-6F7F2B?style=flat-square&logo=jest&logoColor=F3F1EA) ![Testing Library](https://img.shields.io/badge/Testing_Library-6F7F2B?style=flat-square&logo=testinglibrary&logoColor=F3F1EA) ![Regression testing](https://img.shields.io/badge/Regression_testing-6F7F2B?style=flat-square) |
@@ -182,11 +181,10 @@ An in-character chatbot on the Gemini API, built for the ThinklyLabs frontend-in
 | Certification / milestone | Details |
 |:--|:--|
 | 🏅 **[AWS Certified Solutions Architect – Associate (SAA-C03)](https://www.credly.com/badges/88ff1b33-eb51-40b3-b53d-30fe9d5bca88/public_url)** | Amazon Web Services · Jun 2026 |
+| 🏅 **[AWS Certified Developer – Associate (DVA-C02)](https://www.credly.com/badges/1940685b-aa88-4d57-8eb7-1d84112c72e9/public_url)** | Amazon Web Services · Oct 2026 |
 | 🏅 **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/04b73846-5a0e-482e-967b-f0a6a4981e46/public_url)** | Amazon Web Services · Jun 2026 |
 | 🏅 **[Databases and SQL for Data Science](https://www.credly.com/badges/40fb5d45-4349-4558-9a38-d1806d2f343e/public_url)** | IBM · Dec 2025 |
 | ⚔️ **[Competitive programming](https://leetcode.com/lok_esh_shar_ma)** | 200+ problems across LeetCode & Codeforces — graphs, optimisation, core DS |
-| 🤝 **MERN XAI Hackathon** (Mern Matrix Club) | Full-stack app with 3+ ML APIs in 24 hours; qualified for the Development Round |
-| 🎗️ **NCC 'A' Certificate** | Awarded 'A' grade for discipline and leadership |
 
 <div align="center">
 
