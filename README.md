@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://lowcash.netlify.app"><img src="assets/hero.svg" width="100%" alt="Lokesh Sharma — software developer. Full-stack + ML engineer, VIT Bhopal, class of '27." /></a>
+<a href="https://lowcash.netlify.app"><img src="assets/hero.svg" width="100%" alt="Lokesh Sharma — software developer. Full-stack engineer, VIT Bhopal, class of '27." /></a>
 
 <br/><br/>
 
@@ -17,7 +17,7 @@
 
 <img src="assets/h-hello.svg" height="78" alt="Hello!" />
 
-<img align="right" width="400" src="assets/laptop.svg" alt="Terminal: whoami — Lokesh, full-stack + ML engineer; full-stack intern at Medsnap; certs: AWS SAA, AWS DVA, AWS CCP" />
+<img align="right" width="400" src="assets/laptop.svg" alt="Terminal: whoami — Lokesh, full-stack engineer; full-stack intern at Medsnap; certs: AWS SAA, AWS DVA, AWS CCP" />
 
 I'm **Lokesh** — a software engineer and CS student who ships production code.
 
