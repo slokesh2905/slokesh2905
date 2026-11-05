@@ -94,24 +94,31 @@ Medsnap builds EMR / clinic software for doctors, covering appointments, patient
 
 <a href="https://track-let.vercel.app"><img src="assets/p-tracklet.svg" height="64" alt="Tracklet — flagship project" /></a>
 
-**SaaS price-tracking pipeline.** Add a product link and Tracklet watches the price for you, emailing you the moment it drops.
+**SaaS price-tracking pipeline.** Paste a product link from almost any Indian store and Tracklet checks the price daily, keeps an honest price history, and alerts you when it hits your target.
 
 <table>
 <tr>
 <td width="62%" valign="top">
 
-- **200+ automated price checks a day** across 50+ tracked products
-- **Price-drop alerts emailed to 100+ subscribed users**, so nobody has to check prices by hand
-- Scraping with Firecrawl, data and auth on Supabase (PostgreSQL), email through Resend, all in one Next.js + TypeScript app
+- **Price guard against bad scrapes:** impossible readings are rejected and surprising ones are held until a second check agrees, so a misread page can't trigger a false alert
+- **Scrape once, serve everyone:** products are keyed by the store's own ID (e.g. Amazon ASIN), so many shoppers share one product, one history and one scrape
+- **Tiered page reader:** free structured-data parsing first, Firecrawl only for blocked stores, AI as a last resort, which cut Firecrawl cost per page from 5 credits to 1
+- **Bounded daily pipeline:** concurrent, retried and time-budgeted, with auto-pause after repeated failures and a run log for every cron job
+- **Alerts on email, Discord and web push**, fired when the price crosses your target and not on every day it stays low
+- **Real deal score and AI buy-or-wait verdict:** time-weighted price stats and a 0–100 score computed in code, with the model only explaining the facts
+- **Schema and access control:** 17-table Postgres schema with Drizzle migrations, per-user data scoping and a cross-account isolation test, sign-in via Google, GitHub or magic link
+- **CI on every push:** lint, type-check, unit tests, a migration drift check and Playwright end-to-end tests on desktop, iPhone and Pixel profiles
 
-[**▸ Try it live ↗**](https://track-let.vercel.app)
+[**▸ Try it live ↗**](https://tracklet-seven.vercel.app)
 
 </td>
 <td width="38%" valign="top">
 
 `Next.js` `TypeScript`<br/>
-`Firecrawl` `Supabase`<br/>
-`PostgreSQL` `Resend`
+`PostgreSQL (Neon)` `Drizzle`<br/>
+`Better Auth` `Firecrawl`<br/>
+`Vercel AI SDK` `Resend`<br/>
+`Vitest` `Playwright`
 
 </td>
 </tr>
